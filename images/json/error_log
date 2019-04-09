@@ -1,0 +1,16 @@
+[24-May-2014 08:39:16 America/Denver] PHP Notice:  Undefined index: mapid in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 5
+[24-May-2014 08:39:28 America/Denver] PHP Notice:  Undefined index: mapid in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 5
+[24-May-2014 09:11:08 America/Denver] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE) in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 32
+[24-May-2014 09:12:47 America/Denver] PHP Notice:  Array to string conversion in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 11
+[24-May-2014 09:13:02 America/Denver] PHP Fatal error:  Call to undefined function vardump() in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 11
+[24-May-2014 09:13:18 America/Denver] PHP Fatal error:  Call to undefined function vardump() in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 11
+[24-May-2014 09:15:22 America/Denver] PHP Fatal error:  Call to undefined function vardump() in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 11
+[24-May-2014 09:17:35 America/Denver] PHP Parse error:  syntax error, unexpected ')' in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 9
+[24-May-2014 09:17:50 America/Denver] PHP Fatal error:  Call to undefined function vardump() in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 11
+[24-May-2014 09:33:31 America/Denver] PHP Fatal error:  Call to undefined function vardump() in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 11
+[24-May-2014 09:33:52 America/Denver] PHP Fatal error:  Call to undefined function vardump() in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 11
+[24-May-2014 09:34:11 America/Denver] PHP Notice:  Array to string conversion in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 35
+[24-May-2014 09:34:14 America/Denver] PHP Notice:  Array to string conversion in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 35
+[24-May-2014 09:34:19 America/Denver] PHP Notice:  Array to string conversion in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 35
+[24-May-2014 09:34:21 America/Denver] PHP Notice:  Array to string conversion in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 35
+[24-May-2014 09:34:26 America/Denver] PHP Notice:  Array to string conversion in /home1/droidam/public_html/id.am/uplanit/images/json/loaddata.php on line 35

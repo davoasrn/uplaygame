@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<!--
+	Verti 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Who we are</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="UPlanIt" />
+		<meta name="keywords" content="UPlanIt" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,800" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Oleo+Script:400" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/drag.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/tabs.js"></script>
+		<script src="js/dragdrop.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+		<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->		
+	</head>
+	<body>
+		<!-- Header Wrapper -->
+			<div id="header-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+						
+							<!-- Header -->
+								<header id="header">
+								
+									<!-- Logo -->
+										<div id="logo" class="3u">
+											<a href="index.html"><img src="images/logo.png"></a>
+										</div>
+									
+									<!-- Nav -->
+										<nav id="nav" class="menu">
+											<ul>
+												<li><a href="index.html">Who we are</a></li>
+												<li class="current_page_item"><a href="#">What is about</a></li>
+												<li><a href="page3.html">News</a></li>
+												<li><a href="page4.html">Ratings</a></li>
+												<li><a href="page5.html">Partners</a></li>
+												<li><a href="page6.html">Contact us</a></li>
+											</ul>
+										</nav>
+
+									<!-- Login -->	
+											<div id="login" class="login">
+												<a href="login.html">Sign up</a>
+												<span>&nbsp;|&nbsp;</span>
+												<a href="login.html">Sign in</a>
+											</div>
+								</header>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<!-- Main Wrapper -->
+			<div id="main-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+							<!-- Main -->
+								<div id="main" class="box">
+									
+									<div class="row">
+										<div class="12u">
+											<div class="map-info">
+												<span id="location">Hi </span>
+												<span id="users">Guest</span>
+												<span id="new_plan">! Let's create your own plan.</span>
+											</div> 
+										</div>
+									</div>
+									
+									<div class="row">
+										<div id="content" class="12u">
+										    <div id="locs"> </div>										
+											<div id="tab1">
+												<p id="tab1_button1" class="tab1_active">Buildings</p>
+												<p id="tab1_button2">Roofs</p>
+												<p id="tab1_button3">People/cars</p>
+												<div id="tab1_content1">
+										    		<div id="type1"></div>
+													<img onClick="returnJSON()" src="images/add_your_own1.png" id="add_your_own1">
+												</div>	
+												<div id="tab1_content2">
+													<div id="type2"></div>
+													<img onClick="returnJSON()" src="images/add_your_own2.png" id="add_your_own2">
+												</div>
+												<div id="tab1_content3">
+													<div id="type3"></div>
+													<img onClick="returnJSON()" src="images/add_your_own3.png" id="add_your_own3">
+												</div>
+											</div>
+											<div id="control_panel">
+												<img src="images/unlock.png" id="unlock">
+												<img src="images/lock.png" id="lock">
+												<img src="images/arrow-left.png" id="arrow-left">
+												<img src="images/arrow-right.png" id="arrow-right">
+												<img src="images/gov.png" id="govs-version">
+											</div>
+
+					<!-- 						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6094.053522657117!2d44.46823973851035!3d40.20846765272215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1391293438646" width="925" height="350" frameborder="0" style="border:0" class="custom-map" id="custom-map"></iframe> -->
+											<iframe src="https://mapsengine.google.com/map/embed?mid=zMWXSXuWb6t4.kOyxKNZooafc" width="925" height="350" frameborder="0" style="border:0" class="custom-map" id="custom-map"></iframe>
+										</div>									
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Features Wrapper -->
+			<div id="features-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="new3u">
+							<!-- Box -->
+							<section class="box box-feature">
+								<div class="user_avatars">
+									<img src="images/avatar_1.png" id="avatar_1" class="avatar_image">
+									<div class="user_description">
+										<span class="user_descripton_name" id="user_descripton_name">Aleksey Chernish</span>
+										<span class="user_descripton_like" id="user_descripton_like">23</span>
+										<img src="images/avatar_like.png" class="avatar_like">										
+										<br/>	
+										<span class="user_descripton_map" id="user_descripton_map">Map ID: 345</span>
+										<span class="user_descripton_dislike" id="user_descripton_dislike">5</span>
+										<img src="images/avatar_dislike.png" class="avatar_dislike">										
+									</div>
+								</div>
+							</section>
+						</div>		
+						<div class="new3u">
+							<!-- Box -->
+							<section class="box box-feature">
+								<div class="user_avatars">
+									<img src="images/avatar_2.png" id="avatar_2" class="avatar_image">
+									<div class="user_description">
+										<span class="user_descripton_name" id="user_descripton_name">Andrey Mimko</span>
+										<span class="user_descripton_like" id="user_descripton_like">20</span>
+										<img src="images/avatar_like.png" class="avatar_like">										
+										<br/>	
+										<span class="user_descripton_map" id="user_descripton_map">Map ID: 39</span>
+										<span class="user_descripton_dislike" id="user_descripton_dislike">8</span>
+										<img src="images/avatar_dislike.png" class="avatar_dislike">										
+									</div>
+								</div>
+							</section>
+						</div>		
+						<div class="new3u">								
+							<!-- Box -->
+								<section class="box box-feature">
+									<div class="user_avatars">
+										<img src="images/avatar_3.png" id="avatar_3" class="avatar_image">
+										<div class="user_description">
+											<span class="user_descripton_name" id="user_descripton_name">Anna Rudland</span>
+											<span class="user_descripton_like" id="user_descripton_like">18</span>
+											<img src="images/avatar_like.png" class="avatar_like">											
+											<br/>	
+											<span class="user_descripton_map" id="user_descripton_map">Map ID: 102</span>
+											<span class="user_descripton_dislike" id="user_descripton_dislike">12</span>
+											<img src="images/avatar_dislike.png" class="avatar_dislike">
+										</div>
+									</div>
+								</section>
+						</div>		
+						<div class="new3u">	
+							<!-- Box -->
+							<section class="box box-feature">
+								<div class="user_avatars">
+									<img src="images/avatar_4.png" id="avatar_4" class="avatar_image">
+									<div class="user_description">
+										<span class="user_descripton_name" id="user_descripton_name">Armen Antonyan</span>
+										<span class="user_descripton_like" id="user_descripton_like">15</span>
+										<img src="images/avatar_like.png" class="avatar_like">
+										<br/>	
+										<span class="user_descripton_map" id="user_descripton_map">Map ID: 5</span>
+										<span class="user_descripton_dislike" id="user_descripton_dislike">3</span>
+										<img src="images/avatar_dislike.png" class="avatar_dislike">
+									</div>
+								</div>
+							</section>																	
+						</div>						
+						<div class="1u" style="width:12%; padding-left:0px;">		
+							<!-- Box -->
+							<section class="box box-feature">
+								<div class="user_avatars">
+									<a href="" class="user_descripton_more" id="user_descripton_more">+33 others</a>
+								</div>
+							</section>																	
+						</div>
+					</div>
+				</div>
+			</div>			
+
+		<!-- Footer Wrapper -->
+			<div id="footer-wrapper">
+				<footer id="footer" class="container">
+					<div class="row">
+						<div class="12u">
+							<div id="copyright">
+								<a href="who.html">Who we are</a> | 
+								<a href="about.html">What is it about</a> | 								
+								<a href="news.html">News</a> | 
+								<a href="ratings.html">Ratings</a> | 								
+								<a href="partners.html">Partners</a> | 
+								<a href="contactus">Contact</a>
+								<a href="feedback" class="feedback">Feedback</a>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+
+	</body>
+</html>
